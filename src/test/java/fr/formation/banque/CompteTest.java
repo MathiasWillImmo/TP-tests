@@ -26,7 +26,7 @@ public class CompteTest {
 	@Before
 	public void creationCompte() {
 		System.out.println("---- creation du compte ------");
-		compte = new Compte(1, 1, "client test");
+		compte = new Compte(1, 2, "client test");
 	}
 	
 	@After
